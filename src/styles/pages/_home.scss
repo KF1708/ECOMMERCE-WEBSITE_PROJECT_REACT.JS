@@ -1,0 +1,27 @@
+@import "../mixins";
+
+.navbar-section {
+  background-color: black;
+
+  .navbar-scarchbar {
+    background-color: rgb(29, 27, 27);
+  }
+
+  .navbar-scarchbar ::placeholder {
+    color: gray;
+  }
+
+  .navbar-upper-section,
+  .navbar-lower-section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-lower-section {
+    padding-bottom: 10px;
+  }
+
+  .navbarlower-section-lastpart {
+    gap: 20px;
+  }
+}

@@ -1,0 +1,94 @@
+/* Universal styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Corrected box-sizing */
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+//Mordern Beauty Products
+.modern-img {
+  width: 220px;
+  height: 250px;
+  margin-right: 20px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .featured-products {
+    grid-template-columns: repeat(
+      4,
+      1fr
+    ); /* Adjust to 4 columns for medium screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .featured-products {
+    grid-template-columns: repeat(3, 1fr); /* Adjust to 3 columns for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .featured-products {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Adjust to 2 columns for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .featured-products {
+    grid-template-columns: 1fr; /* Adjust to 1 column for mobile */
+  }
+}
+// #app {
+//   height: 100%;
+// }
+// html,
+// body {
+//   position: relative;
+//   height: 100%;
+// }
+
+// body {
+//   background: #eee;
+//   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+//   font-size: 14px;
+//   color: #000;
+//   margin: 0;
+//   padding: 0;
+// }
+
+// .swiper {
+//   width: 100%;
+//   height: 100%;
+// }
+
+// .swiper-slide {
+//   text-align: center;
+//   font-size: 18px;
+//   background: #fff;
+
+//   /* Center slide text vertically */
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .swiper-slide img {
+//   display: block;
+
+//   object-fit: cover;
+// }
+
+// .swiper {
+//   margin-left: auto;
+//   margin-right: auto;
+// }

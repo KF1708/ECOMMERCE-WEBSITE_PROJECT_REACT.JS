@@ -1,0 +1,21 @@
+/* Product Delivery */
+
+.product-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  .product-delivery-section {
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0 15px;
+
+    .product-delivery-img {
+      width: 110px;
+      height: 100px;
+    }
+
+    .product-delivery-items {
+      padding: 10px;
+    }
+  }
+}

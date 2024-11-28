@@ -1,0 +1,38 @@
+/* Product Image & Heart Icon */
+
+.latest-product {
+  padding: 15px;
+
+  .latest-product-heading {
+    margin-bottom: 20px;
+  }
+  .latest-product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .latest-product-img {
+    width: 350px;
+  }
+
+  .latest-product-lastpart {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hawaiian-details {
+    margin-left: 160px;
+  }
+
+  .UrbanShirt-img {
+    width: 530px;
+  }
+  .modile {
+    margin-left: 30px;
+    width: 170px;
+  }
+
+  .latest-product-lastpart-details {
+    margin-left: 250px;
+  }
+}
