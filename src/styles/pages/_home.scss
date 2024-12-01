@@ -3,12 +3,12 @@
 .navbar-section {
   background-color: black;
 
-  .navbar-scarchbar {
-    background-color: rgb(29, 27, 27);
+  .navbar-searchbar {
+    background-color: rgb(71, 68, 68);
   }
 
-  .navbar-scarchbar ::placeholder {
-    color: gray;
+  .navbar-searchbar::placeholder {
+    color: rgb(167, 164, 164);
   }
 
   .navbar-upper-section,
@@ -21,7 +21,94 @@
     padding-bottom: 10px;
   }
 
-  .navbarlower-section-lastpart {
+  .navbar-lower-section-lastpart {
     gap: 20px;
   }
+
+  // Applying breakpoints to adjust the navbar layout
+  @include smMinBreakPoint {
+    .navbar-upper-section {
+      flex-direction: row;
+    }
+
+    .navbar-lower-section {
+      flex-direction: row;
+    }
+  }
+
+  @include smMaxBreakPoint {
+    .navbar-upper-section {
+      flex-direction: column;
+    }
+
+    .navbar-lower-section {
+      flex-direction: column;
+    }
+  }
+
+  @include mdMinBreakPoint {
+    .navbar-upper-section {
+      flex-direction: row;
+    }
+
+    .navbar-lower-section {
+      flex-direction: row;
+    }
+  }
+
+  @include mdMaxBreakPoint {
+    .navbar-upper-section {
+      flex-direction: column;
+    }
+
+    .navbar-lower-section {
+      flex-direction: column;
+    }
+  }
+
+  @include lgMinBreakPoint {
+    .navbar-upper-section {
+      flex-direction: row;
+    }
+
+    .navbar-lower-section {
+      flex-direction: row;
+    }
+  }
+
+  @include lgMaxBreakPoint {
+    .navbar-upper-section {
+      flex-direction: column;
+    }
+
+    .navbar-lower-section {
+      flex-direction: column;
+    }
+  }
 }
+
+// .navbar-section {
+//   background-color: black;
+
+//   .navbar-scarchbar {
+//     background-color: rgb(29, 27, 27);
+//   }
+
+//   .navbar-scarchbar ::placeholder {
+//     color: gray;
+//   }
+
+//   .navbar-upper-section,
+//   .navbar-lower-section {
+//     display: flex;
+//     justify-content: space-between;
+//   }
+
+//   .navbar-lower-section {
+//     padding-bottom: 10px;
+//   }
+
+//   .navbarlower-section-lastpart {
+//     gap: 20px;
+//   }
+// }

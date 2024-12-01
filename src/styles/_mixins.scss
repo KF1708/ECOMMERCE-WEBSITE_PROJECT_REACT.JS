@@ -1,13 +1,18 @@
 @import "./variables";
 
+// Assuming the mixins are already defined
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+
 @mixin smMinBreakPoint {
-  @media (min-width:#{ $screen-sm}) {
+  @media (min-width: #{$screen-sm}) {
     @content;
   }
 }
 
 @mixin smMaxBreakPoint {
-  @media (min-width: #{$screen-md}) {
+  @media (max-width: #{$screen-sm - 1}) {
     @content;
   }
 }
@@ -19,7 +24,43 @@
 }
 
 @mixin mdMaxBreakPoint {
-  @media (min-width: #{$screen-md}) {
+  @media (max-width: #{$screen-md - 1}) {
     @content;
   }
 }
+
+@mixin lgMinBreakPoint {
+  @media (min-width: #{$screen-lg}) {
+    @content;
+  }
+}
+
+@mixin lgMaxBreakPoint {
+  @media (max-width: #{$screen-lg - 1}) {
+    @content;
+  }
+}
+
+// @mixin smMinBreakPoint {
+//   @media (min-width:#{ $screen-sm}) {
+//     @content;
+//   }
+// }
+
+// @mixin smMaxBreakPoint {
+//   @media (min-width: #{$screen-md}) {
+//     @content;
+//   }
+// }
+
+// @mixin mdMinBreakPoint {
+//   @media (min-width: #{$screen-md}) {
+//     @content;
+//   }
+// }
+
+// @mixin mdMaxBreakPoint {
+//   @media (min-width: #{$screen-md}) {
+//     @content;
+//   }
+// }

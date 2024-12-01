@@ -22,6 +22,7 @@ const NavBar1 = () => {
                 placeholder="Search"
                 className="navbar-scarchbar"
                 prefix={<SearchIcon color="gray" />}
+                style={{ backgroundColor: "rgb(97, 93, 93)", color: "gray" }}
               />
             </div>
 
