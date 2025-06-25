@@ -6,7 +6,7 @@ import { Navigation } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
-import { HeartIcon, StarIcon } from "./icon";
+// import { HeartIcon, StarIcon } from "./icon";
 
 const FeaturedProducts = () => {
   const products = [
