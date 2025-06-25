@@ -1,4 +1,3 @@
-import { HorizontalLine } from "./icon";
 import Hero from "./Hero";
 import ProductDelivery from "./ProductDelivery";
 import FeaturedProducts from "./FeaturedProducts";
@@ -13,18 +12,11 @@ import NavBar2 from "./NavBar2";
 
 const NavBar = () => {
   return (
-    <div className="">
+    <div>
       <div className="navbar-section">
         <div className="container">
           <NavBar1 />
-          <div>
-            <HorizontalLine
-              color="white"
-              width="1150px"
-              height="5px"
-              fill="auto"
-            ></HorizontalLine>
-          </div>
+          <div className="w-[1150px] h-[5px] bg-white my-4 mx-auto"></div>
           <NavBar2 />
         </div>
       </div>
