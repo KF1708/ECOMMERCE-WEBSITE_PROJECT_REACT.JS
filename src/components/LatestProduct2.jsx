@@ -5,8 +5,7 @@ import { Button } from "antd";
 
 const LatestProduct2 = () => {
   return (
-    <div>
-      <div>
+  
         <div className="latest-product-lastpart gap-4">
           <div className=" position-relative ">
             <div className=" d-flex justify-content-around position-absolute p-3">
@@ -78,8 +77,7 @@ const LatestProduct2 = () => {
             />
           </div>
         </div>
-      </div>
-    </div>
+     
   );
 };
 

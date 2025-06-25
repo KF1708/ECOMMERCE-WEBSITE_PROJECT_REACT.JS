@@ -4,8 +4,7 @@ import { Button } from "antd";
 
 const Hero1 = () => {
   return (
-    <div>
-      <div>
+    
         <div className="firstpart-herohalf-section">
           <p style={{ color: "coral", fontWeight: "bold" }}>
             {" "}
@@ -72,8 +71,7 @@ const Hero1 = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+  
   );
 };
 

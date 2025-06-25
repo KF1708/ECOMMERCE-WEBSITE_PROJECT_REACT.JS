@@ -1,0 +1,167 @@
+.contact-info {
+
+       @media screen and (max-width: 480px) {
+ 
+   
+        
+       } 
+
+   .contact-info-one {
+    
+
+       @media screen and (max-width: 560px) {
+
+           margin: 5px;
+              margin-left: -25px;
+       }
+
+       @media screen and (max-width: 480px) {
+        
+       } 
+
+       img {
+              @media screen and (max-width: 560px) {
+width: 100px;
+                     margin: 5px;
+                        margin-left: -25px;
+                 }
+          
+                 @media screen and (max-width: 480px) {
+                     width: 80px;
+                     margin-left: -35px;
+                 } 
+       }
+       p {
+              @media screen and (max-width: 560px) {
+
+                     margin: 5px;
+                        margin-left: -25px;
+                 }
+          
+                 @media screen and (max-width: 480px) {
+             padding: 1px;
+             margin-left: -35px;
+                 } 
+       }
+   }
+
+   .contact-info-two {
+
+       @media screen and (max-width: 560px) {
+
+              margin: 5px;
+              
+          }
+   
+          @media screen and (max-width: 480px) {
+           
+          } 
+   
+          h5 {
+                 @media screen and (max-width: 560px) {
+  
+                        margin: 5px;
+                          
+                    }
+             
+                    @media screen and (max-width: 480px) {
+                     font-size: medium;
+                     padding: 1px;
+                     margin-left: -5px;
+                     
+                    } 
+          }
+          p {
+                 @media screen and (max-width: 560px) {
+   
+                        margin: 5px;
+                           
+                    }
+             
+                    @media screen and (max-width: 480px) {
+                     
+                    } 
+          }
+       
+
+   }
+
+   .contact-info-three {
+
+       @media screen and (max-width: 560px) {
+
+              margin: 5px;
+              
+          }
+   
+          @media screen and (max-width: 480px) {
+           
+          } 
+   
+          h5 {
+                 @media screen and (max-width: 560px) {
+  
+                        margin: 5px;
+                          
+                    }
+             
+                    @media screen and (max-width: 480px) {
+                     font-size: medium;
+                     padding: 1px;
+                     margin-left: 5px
+                     
+                    } 
+          }
+          p {
+                 @media screen and (max-width: 560px) {
+   
+                        margin: 5px;
+                           
+                    }
+             
+                    @media screen and (max-width: 480px) {
+                     
+                    } 
+          }
+       
+   }
+
+   .contact-info-four {
+       @media screen and (max-width: 560px) {
+
+              margin: 5px;
+              
+          }
+   
+          @media screen and (max-width: 480px) {
+         
+          } 
+   
+          h5 {
+                 @media screen and (max-width: 560px) {
+  
+                        margin: 5px;
+                          
+                    }
+             
+                    @media screen and (max-width: 480px) {
+                     font-size: medium;
+                     padding: 1px;
+                     margin-left: 5px
+                    } 
+          }
+          p {
+                 @media screen and (max-width: 560px) {
+   
+                        margin: 5px;
+                           
+                    }
+             
+                    @media screen and (max-width: 480px) {
+                    
+                    } 
+          }
+       
+
+   }
+}

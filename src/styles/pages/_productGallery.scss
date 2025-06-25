@@ -1,0 +1,17 @@
+.product-gallery {
+     
+       .product-gallery-img{
+       @media screen and (max-width: 1080px) {
+width: 950px !important;
+     
+       }
+
+       @media screen and (max-width: 560px) {
+              width: 450px !important;
+       }
+
+       @media screen and (max-width: 480px) {
+              width: 350px !important;
+       } 
+      }
+}

@@ -1,9 +1,8 @@
-import React from "react";
 import { FacebookIcon, TwitterIcon, YoutubeIcon } from "./icon";
 
 const ContactInfo4 = () => {
   return (
-    <div>
+    <div className="contact-info-four">
       <div>
         <h5 className=" fw-bold">Categories</h5>
         <div className=" p-1">

@@ -3,88 +3,119 @@
 .navbar-section {
   background-color: black;
 
+.search-input{
+  display: flex;
+  position: relative;
+
   .navbar-searchbar {
     background-color: rgb(71, 68, 68);
-  }
-
-  .navbar-searchbar::placeholder {
-    color: rgb(167, 164, 164);
-  }
-
-  .navbar-upper-section,
-  .navbar-lower-section {
+    width: 360px;
+    background-color: $bg_light_dark;
+    padding: 10px 14px;
+    outline: none;
+    border: 1px solid $border_dark;
+    color: $white;
+    border-radius: 10px;
     display: flex;
-    justify-content: space-between;
-  }
+    align-items: center;
+    gap: 5px;
 
-  .navbar-lower-section {
-    padding-bottom: 10px;
-  }
 
-  .navbar-lower-section-lastpart {
-    gap: 20px;
-  }
-
-  // Applying breakpoints to adjust the navbar layout
-  @include smMinBreakPoint {
-    .navbar-upper-section {
-      flex-direction: row;
+    @media screen and (max-width: 740px) {
+        width: 300px;
     }
 
-    .navbar-lower-section {
-      flex-direction: row;
-    }
-  }
-
-  @include smMaxBreakPoint {
-    .navbar-upper-section {
-      flex-direction: column;
+    @media screen and (max-width: 540px) {
+        width: 250px;
+        padding: 8px 10px;
     }
 
-    .navbar-lower-section {
-      flex-direction: column;
-    }
-  }
-
-  @include mdMinBreakPoint {
-    .navbar-upper-section {
-      flex-direction: row;
+    @media screen and (max-width: 460px) {
+        width: 220px;
     }
 
-    .navbar-lower-section {
-      flex-direction: row;
+    @media screen and (max-width: 420px) {
+        font-size: 14px;
+    }
+
+    input {
+        width: 100%;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        color: $white;
+    }
+    .navbar-searchbar::placeholder {
+      color: rgb(167, 164, 164);
     }
   }
 
-  @include mdMaxBreakPoint {
-    .navbar-upper-section {
-      flex-direction: column;
+ 
+
+}
+.navbar-upper-section{
+  display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+
+        .navbar_logo {
+            flex-grow: 1;
+
+            img {
+                height: 40px;
+                width: 132px;
+            }
+        }
+}
+
+.navbar-lower-section{
+  padding: 10px 0;
+  
+  align-items: center;
+
+  .category_btn {
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    @media screen and (max-width: 560px) {
+        span {
+            display: none;
+        }
     }
 
-    .navbar-lower-section {
-      flex-direction: column;
-    }
-  }
+    padding: 10px 16px;
 
-  @include lgMinBreakPoint {
-    .navbar-upper-section {
-      flex-direction: row;
+
+     .pages_list {
+     
+
+      @media screen and (max-width: 640px) {
+          gap: 20px;
+      }
+
+      @media screen and (max-width: 740px) {
+          display: none;
+      }
+
+      @media screen and (max-width: 540px) {
+        
+              font-size: 14px !important;
+          
+      }
+     }
+}
+}
+}
+.nav_menu_dropdown_button {
+    @media screen and (min-width: 740px) {
+        display: none;
     }
 
-    .navbar-lower-section {
-      flex-direction: row;
-    }
-  }
-
-  @include lgMaxBreakPoint {
-    .navbar-upper-section {
-      flex-direction: column;
-    }
-
-    .navbar-lower-section {
-      flex-direction: column;
-    }
-  }
 }
 
 // .navbar-section {

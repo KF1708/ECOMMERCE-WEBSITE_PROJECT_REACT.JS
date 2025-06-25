@@ -1,7 +1,6 @@
 import "./app.scss";
 import NavBar from "./components/NavBar";
-import Ribbon from "./components/Ribbon";
-import { ShoppingCart, ProfileIcon } from "/src/components/Icon.jsx";
+
 function App() {
   return (
     <>

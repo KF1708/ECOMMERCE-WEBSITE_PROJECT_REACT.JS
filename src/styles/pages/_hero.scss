@@ -9,19 +9,90 @@
     display: flex;
     flex-direction: row;
 
-    .medium-dimond {
-      padding: 10px 50px 30px 50px;
-      margin-bottom: 20px;
+    @media screen and (max-width: 1080px) {
+      flex-direction: column; // Stack items vertically on medium screens
+      align-items: center;
     }
+
+    @media screen and (max-width: 560px) {
+      flex-direction: column; // Ensure a single-column layout on small screens
+      text-align: center;
+      gap: 10px;
+      font-weight: 300;
+      font-size: 10px;
+    }
+
+    @media screen and (max-width: 480px) {
+      flex-direction: column; // Ensure a single-column layout on small screens
+      text-align: center;
+     
+    }
+ 
 
     .firstpart-herohalf-section {
       padding-top: 60px;
+
+      @media screen and (max-width: 1080px) {
+        flex-direction: column; // Stack items vertically on medium screens
+        align-items: center;
+      }
+  
+      @media screen and (max-width: 560px) {
+        flex-direction: column; // Ensure a single-column layout on small screens
+        text-align: center;
+        font-size: smaller;
+      }
+
+      @media screen and (max-width: 480px) {
+        flex-direction: column; // Ensure a single-column layout on small screens
+        text-align: center;
+        
+       padding-left: 30px;
+      }
+      .medium-dimond {
+        padding: 10px 50px 30px 50px;
+        margin-bottom: 20px;
+        @media screen and (max-width: 1080px) {
+          flex-direction: column; // Stack items vertically on medium screens
+          align-items: center;
+        }
+    
+        @media screen and (max-width: 560px) {
+          flex-direction: column; // Ensure a single-column layout on small screens
+          text-align: center;
+          gap: 5px;
+        }
+
+        @media screen and (max-width: 480px) {
+          flex-direction: column; // Ensure a single-column layout on small screens
+          text-align: center;
+          gap: 5px;
+        
+        }
+      }
     }
 
     .hero-half-section-image {
       width: 557px;
       height: 510px;
       position: relative;
+      @media screen and (max-width: 1080px) {
+        flex-direction: column; // Stack items vertically on medium screens
+        align-items: center;
+      }
+  
+      @media screen and (max-width: 560px) {
+        flex-direction: column; // Ensure a single-column layout on small screens
+        text-align: center;
+        gap: 5px;
+      }
+
+      @media screen and (max-width: 480px) {
+        flex-direction: column; // Ensure a single-column layout on small screens
+        text-align: center;
+        gap: 5px;
+        width: 400px;
+      }
     }
 
     .big-sale-img {
@@ -30,6 +101,23 @@
       width: 300px;
       height: 150px;
       position: absolute;
+      @media screen and (max-width: 1080px) {
+        flex-direction: column; // Stack items vertically on medium screens
+        align-items: center;
+      }
+  
+      @media screen and (max-width: 560px) {
+        flex-direction: column; // Ensure a single-column layout on small screens
+        text-align: center;
+        gap: 5px;
+      }
+
+      @media screen and (max-width: 480px) {
+        flex-direction: column; // Ensure a single-column layout on small screens
+        text-align: center;
+        gap: 5px;
+        width: 100px;
+      }
     }
 
     .large-dimond {
@@ -37,78 +125,96 @@
       padding: 10px;
       margin-left: 450px;
       position: absolute;
+      @media screen and (max-width: 1080px) {
+        flex-direction: column; // Stack items vertically on medium screens
+        align-items: center;
+      }
+  
+      @media screen and (max-width: 560px) {
+        flex-direction: column; // Ensure a single-column layout on small screens
+        text-align: center;
+        padding: 1px;
+       
+      }
+
+      @media screen and (max-width: 480px) {
+        flex-direction: column; // Ensure a single-column layout on small screens
+        text-align: center;
+margin-left: 310px;
+        
+      }
     }
   }
 
   // Apply responsive changes based on screen size
-  @include smMinBreakPoint {
-    .hero-half-section {
-      flex-direction: column; // Stack items on small screens
-    }
+  // @include smMinBreakPoint {
+  //   .hero-half-section {
+  //     flex-direction: row; // Stack items on small screens
+  //   }
 
-    .hero-half-section-image {
-      width: 100%; // Make image full width on smaller screens
-      height: auto; // Maintain aspect ratio
-    }
+  //   .hero-half-section-image {
+  //     width: 100%; // Make image full width on smaller screens
+  //     height: auto; // Maintain aspect ratio
+  //   }
 
-    .big-sale-img {
-      margin-top: 20px;
-      margin-left: 0; // Adjust the position for smaller screens
-      width: 250px;
-      height: 125px;
-    }
+  //   .big-sale-img {
+  //     margin-top: 20px;
+  //     margin-left: 0; // Adjust the position for smaller screens
+  //     width: 250px;
+  //     height: 125px;
+  //   }
 
-    .large-dimond {
-      margin-top: 100px;
-      margin-left: 0; // Adjust for smaller screens
-    }
-  }
+  //   .large-dimond {
+  //     margin-top: 100px;
+  //     margin-left: 0; // Adjust for smaller screens
+  //   }
+  // }
 
-  @include mdMinBreakPoint {
-    .hero-half-section {
-      flex-direction: row; // Switch back to row layout on medium screens
-    }
+  // @include mdMinBreakPoint {
+  //   .hero-half-section {
+  //     flex-direction: row; // Switch back to row layout on medium screens
+  //   }
 
-    .hero-half-section-image {
-      width: 70%; // Make image a bit smaller for medium screens
-      height: auto;
-    }
+  //   .hero-half-section-image {
+  //     width: 70%; // Make image a bit smaller for medium screens
+  //     height: auto;
+  //   }
 
-    .big-sale-img {
-      margin-top: 30px;
-      margin-left: 150px;
-      width: 300px;
-      height: 150px;
-    }
+  //   .big-sale-img {
+  //     margin-top: 30px;
+  //     margin-left: 150px;
+  //     width: 300px;
+  //     height: 150px;
+  //   }
 
-    .large-dimond {
-      margin-top: 120px;
-      margin-left: 350px;
-    }
-  }
+  //   .large-dimond {
+  //     margin-top: 120px;
+  //     margin-left: 350px;
+  //   }
+  // }
 
-  @include lgMinBreakPoint {
-    .hero-half-section {
-      flex-direction: row;
-    }
+  // @include lgMinBreakPoint {
+  //   .hero-half-section {
+  //     flex-direction: row;
+  //   }
 
-    .hero-half-section-image {
-      width: 50%; // Make image half-width on larger screens
-      height: auto;
-    }
+  //   .hero-half-section-image {
+  //     width: 50%; // Make image half-width on larger screens
+  //     height: auto;
+  //   }
 
-    .big-sale-img {
-      margin-top: 30px;
-      margin-left: 250px;
-      width: 300px;
-      height: 150px;
-    }
+  //   .big-sale-img {
+  //     margin-top: 30px;
+  //     margin-left: 250px;
+  //     width: 300px;
+  //     height: 150px;
+  //   }
 
-    .large-dimond {
-      margin-top: 150px;
-      margin-left: 450px;
-    }
-  }
+  //   .large-dimond {
+  //     margin-top: 150px;
+  //     margin-left: 450px;
+  //   }
+  // }
 }
 
 // .hero-section {

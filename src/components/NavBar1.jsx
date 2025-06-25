@@ -1,8 +1,7 @@
 import { Input } from "antd";
-import React from "react";
+
 import {
-  DownArrowIcon,
-  MoonIcon,
+ 
   ProfileIcon,
   SearchIcon,
   ShoppingCart,
@@ -10,10 +9,9 @@ import {
 
 const NavBar1 = () => {
   return (
-    <div>
-      <div>
+    
         <div className="navbar-upper-section gap-5 py-3">
-          <div>
+          <div className="navbar_logo">
             <img src="./public/icons/logo_white 1.svg" alt="logo" />
           </div>
           <div className="navbar-upper-section gap-3">
@@ -27,20 +25,13 @@ const NavBar1 = () => {
             </div>
 
             <div className="navbar-upper-section gap-5">
-              <small>
-                {" "}
-                <p className="text-white">
-                  English <DownArrowIcon color="white" />
-                </p>
-              </small>
-              <MoonIcon color="white" />
+             
               <ShoppingCart color="white" />
               <ProfileIcon color="white" />
             </div>
           </div>
         </div>
-      </div>
-    </div>
+   
   );
 };
 

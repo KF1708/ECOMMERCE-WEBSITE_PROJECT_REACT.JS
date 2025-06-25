@@ -1,4 +1,3 @@
-import React from "react";
 import { HorizontalLine } from "./icon";
 import Hero from "./Hero";
 import ProductDelivery from "./ProductDelivery";

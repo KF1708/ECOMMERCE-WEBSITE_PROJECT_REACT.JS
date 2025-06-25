@@ -5,8 +5,7 @@ import { Button } from "antd";
 
 const LatestProduct1 = () => {
   return (
-    <div>
-      <div>
+   
         <div className=" latest-product-list">
           <div className=" position-relative ">
             <div className=" d-grid justify-content-around position-absolute p-3">
@@ -96,8 +95,7 @@ const LatestProduct1 = () => {
             />
           </div>
         </div>
-      </div>
-    </div>
+      
   );
 };
 

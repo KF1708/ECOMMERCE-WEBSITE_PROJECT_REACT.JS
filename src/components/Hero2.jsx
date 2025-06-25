@@ -3,9 +3,8 @@ import { LargerDiamondIcon } from "./icon";
 
 const Hero2 = () => {
   return (
-    <div>
-      <div>
-        <div className="d-flex">
+    
+        <div className=" d-flex">
           <img
             className="hero-half-section-image"
             src="./public/images/main img.png"
@@ -22,8 +21,7 @@ const Hero2 = () => {
             <LargerDiamondIcon color="black"></LargerDiamondIcon>
           </div>
         </div>
-      </div>
-    </div>
+  
   );
 };
 

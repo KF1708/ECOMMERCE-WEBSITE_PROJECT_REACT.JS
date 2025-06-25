@@ -1,7 +1,6 @@
-import React from "react";
 import { HeartIcon, StarIcon } from "./icon";
 import Ribbon from "./Ribbon";
-import SwiperFeatureProducts from "./SwiperFeatureProducts";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -66,15 +65,27 @@ const FeaturedProducts = () => {
         <h3 className="fw-bold text-center p-5">Featured Products</h3>
 
         <Swiper
-          slidesPerView={5}
-          spaceBetween={10}
+          breakpoints={{
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 5,
+              spaceBetween: 50,
+            },
+          }}
           loop={true}
           navigation={true}
           modules={[Navigation]}
           className="mySwiper"
         >
           {products.map((product, index) => (
-            <SwiperSlide key={index} className="swiper-slide m-1 p-2">
+            <SwiperSlide key={index} className="swiper-slide m-3 p-2 ">
               <div className="featured-products-items position-relative m-2 p-2">
                 <div className=" ribbon position-absolute top-0 end-0">
                   <Ribbon />

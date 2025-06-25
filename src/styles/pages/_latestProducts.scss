@@ -1,0 +1,150 @@
+@import "../mixins";
+
+// Latest Product Section Styles
+.latest-product {
+  padding: 15px;
+
+  .latest-product-heading {
+    margin-bottom: 20px;
+  }
+
+  .latest-product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    @media screen and (max-width: 1080px) {
+      grid-template-columns: repeat(2, 1fr); // 2 columns on medium screens
+    }
+
+    @media screen and (max-width: 560px) {
+      grid-template-columns: repeat(1, 1fr); // 1 column on small screens
+   margin-left: 60px;
+      gap: 15px;
+    }
+    @media screen and (max-width: 480px) {
+      grid-template-columns: repeat(1, 1fr); // 1 column on small screens
+      
+      
+      margin-left: 3px;
+    
+      gap: 5px;
+    }
+  }
+
+  .latest-product-img {
+    width: 350px;
+    height: auto;
+    
+  }
+
+  .latest-product-lastpart {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @media screen and (max-width: 1080px) {
+      grid-template-columns: repeat(2, 1fr); // 2 columns on medium screens
+    }
+
+    @media screen and (max-width: 560px) {
+      grid-template-columns: repeat(1, 1fr); // 1 column on small screens
+      gap: 15px;
+      padding-left: 1px;
+    }
+    @media screen and (max-width: 480px) {
+      grid-template-columns: repeat(1, 1fr); // 1 column on small screens
+      gap: 5px;
+    }
+  }
+
+  .hawaiian-details {
+    margin-left: 160px;
+  }
+
+  .UrbanShirt-img {
+    width: 530px;
+    @media screen and (max-width: 1080px) {
+      height: 300px;
+     width: 450px;
+    }
+
+    @media screen and (max-width: 560px) {
+    width: 490px;
+    }
+    @media screen and (max-width: 480px) {
+   height: 235px;
+      width: 350px;
+    }
+  }
+
+  .modile {
+    margin-left: 30px;
+    width: 170px;
+    
+    @media screen and (max-width: 560px) {
+   padding: 10px;
+      }
+
+    @media screen and (max-width: 480px) {
+      
+      width: 100px;
+    }
+  }
+
+  .latest-product-lastpart-details {
+    margin-left: 250px;
+
+    @media screen and (max-width: 560px) {
+      width: 490px;
+      }
+    @media screen and (max-width: 480px) {
+
+      margin-left: 160px;
+
+    }
+  }
+
+  // Responsive adjustments
+
+
+}
+
+/* Product Image & Heart Icon */
+
+// .latest-product {
+//   padding: 15px;
+
+//   .latest-product-heading {
+//     margin-bottom: 20px;
+//   }
+//   .latest-product-list {
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     gap: 20px;
+//   }
+//   .latest-product-img {
+//     width: 350px;
+//   }
+
+//   .latest-product-lastpart {
+//     margin-top: 25px;
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//   }
+//   .hawaiian-details {
+//     margin-left: 160px;
+//   }
+
+//   .UrbanShirt-img {
+//     width: 530px;
+//   }
+//   .modile {
+//     margin-left: 30px;
+//     width: 170px;
+//   }
+
+//   .latest-product-lastpart-details {
+//     margin-left: 250px;
+//   }
+// }
