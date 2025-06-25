@@ -1,4 +1,4 @@
-import { HorizontalLine } from "./icon";
+import { HorizontalLine } from "./Icon";
 import Hero from "./Hero";
 import ProductDelivery from "./ProductDelivery";
 import FeaturedProducts from "./FeaturedProducts";
