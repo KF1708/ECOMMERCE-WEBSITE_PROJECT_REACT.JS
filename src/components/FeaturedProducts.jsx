@@ -86,7 +86,7 @@ const FeaturedProducts = () => {
                   <Ribbon />
                 </div>
                 <div className="heart position-absolute top-2 start-2">
-                  <HeartIcon color="black" />
+                  {/* <HeartIcon color="black" /> */}
                 </div>
                 <div className="product-items">
                   <div className="product-image">
@@ -112,7 +112,7 @@ const FeaturedProducts = () => {
                       </p>
 
                       <p className="featured-products-items-span">
-                        <StarIcon /> (4.9)
+                        {/* <StarIcon /> (4.9) */}
                       </p>
                     </div>
                   </div>
