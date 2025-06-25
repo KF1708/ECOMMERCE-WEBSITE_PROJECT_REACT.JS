@@ -1,4 +1,3 @@
-import React from "react";
 import { LargerDiamondIcon } from "./icon";
 
 const Hero2 = () => {

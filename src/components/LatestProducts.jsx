@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Button } from "antd";
 
 import LatestProduct1 from "./LatestProduct1";

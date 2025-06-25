@@ -84,6 +84,7 @@ export const ProfileIcon = ({ color }) => {
   );
 };
 
+// eslint-disable-next-line react/prop-types
 export const DownArrowIcon = ({ color }) => {
   return (
     <svg

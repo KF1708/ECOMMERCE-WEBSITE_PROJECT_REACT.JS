@@ -1,4 +1,4 @@
-import { HeartIcon, StarIcon } from "./icon"; // Make sure icon.jsx exists!
+// Make sure icon.jsx exists!
 import Ribbon from "./Ribbon";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -6,6 +6,7 @@ import { Navigation } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
+import { HeartIcon, StarIcon } from "./icon";
 
 const FeaturedProducts = () => {
   const products = [
