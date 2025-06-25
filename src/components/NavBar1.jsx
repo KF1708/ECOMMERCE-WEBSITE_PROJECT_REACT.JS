@@ -6,7 +6,7 @@ const NavBar1 = () => {
   return (
     <div className="navbar-upper-section gap-5 py-3">
       <div className="navbar_logo">
-        <img src="./public/icons/logo_white 1.svg" alt="logo" />
+        <img src="/icons/logo_white 1.svg" alt="logo" />
       </div>
       <div className="navbar-upper-section gap-3">
         <div className="search-input">

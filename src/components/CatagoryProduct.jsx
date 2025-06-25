@@ -27,17 +27,17 @@ const CatagoryProduct = () => {
             <div className="p-3 ">
               <img
                 className="modern-img"
-                src="./public/images/mordern1.png"
+                src="/images/mordern1.png"
                 alt="modern-img"
               />
               <img
                 className="modern-img"
-                src="./public/images/mordern2.png"
+                src="/images/mordern2.png"
                 alt="modern-img"
               />
               <img
                 className="modern-img"
-                src="./public/images/mordern3.png"
+                src="/images/mordern3.png"
                 alt="modern-img"
               />
             </div>

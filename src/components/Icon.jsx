@@ -1,5 +1,3 @@
-import React from "react";
-
 export const ShoppingCart = ({ color }) => {
   return (
     <svg

@@ -2,7 +2,7 @@ const ContactInfo1 = () => {
   return (
     <div className="contact-info-one">
       <div>
-        <img src="./public/images/logo.png" alt="logo" className=" p-1" />
+        <img src="/images/logo.png" alt="logo" className=" p-1" />
       </div>
       <div className=" p-1">
         <p style={{ fontSize: "12px" }}>techserve4u@gmail.com</p>

@@ -1,4 +1,3 @@
-import React from "react";
 import ContactInfo1 from "./ContactInfo1";
 import ContactInfo2 from "./ContactInfo2";
 import ContactInfo3 from "./ContactInfo3";

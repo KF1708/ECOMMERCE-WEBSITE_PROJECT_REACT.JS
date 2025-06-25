@@ -1,11 +1,10 @@
-import React from "react";
 import Ribbon from "./Ribbon";
 import { CompareIcon, HeartIcon, ShareIcon, SmallHeartIcon } from "./icon";
 
 const SuperProduct1 = () => {
   const itemts = [
     {
-      imgSrc: "./public/images/image 1.png",
+      imgSrc: "/images/image 1.png",
       alt: "Respira",
       title: "Respira",
       name: "Outdoor bar table and stool",
@@ -13,7 +12,7 @@ const SuperProduct1 = () => {
       originalPrice: 3500.0,
     },
     {
-      imgSrc: "./public/images/image 2.png",
+      imgSrc: "/images/image 2.png",
       alt: "Head Phone img",
       title: "Headphone",
       name: "Mellon's Brand",
@@ -21,7 +20,7 @@ const SuperProduct1 = () => {
       originalPrice: 3500.0,
     },
     {
-      imgSrc: "./public/images/image 3.png",
+      imgSrc: "/images/image 3.png",
       alt: "Laptop",
       title: "Laptop",
       name: "HP Brand",
@@ -29,7 +28,7 @@ const SuperProduct1 = () => {
       originalPrice: 3500.0,
     },
     {
-      imgSrc: "./public/images/image 4.png",
+      imgSrc: "/images/image 4.png",
       alt: "Leviosa image",
       title: "Leviosa",
       name: "Stylish cafe chair",
@@ -37,7 +36,7 @@ const SuperProduct1 = () => {
       originalPrice: 3500.0,
     },
     {
-      imgSrc: "./public/images/image 5.png",
+      imgSrc: "/images/image 5.png",
       title: "Barboreal Gray Sweates...",
       alt: "White-AC image",
       name: "Single Zone Mini-Split systems",
@@ -45,7 +44,7 @@ const SuperProduct1 = () => {
       originalPrice: 3500.0,
     },
     {
-      imgSrc: "./public/images/image 6.png",
+      imgSrc: "/images/image 6.png",
       alt: "Pingky",
       title: "Pingky",
       name: "Cute bed set",
@@ -53,7 +52,7 @@ const SuperProduct1 = () => {
       originalPrice: 3500.0,
     },
     {
-      imgSrc: "./public/images/images  7.png",
+      imgSrc: "/images/images  7.png",
       alt: "Respira",
       title: "Respira",
       name: "Outdoor bar table and stool",
@@ -61,7 +60,7 @@ const SuperProduct1 = () => {
       originalPrice: 3500.0,
     },
     {
-      imgSrc: "./public/images/images  8.png",
+      imgSrc: "/images/images  8.png",
       alt: "Phone",
       title: "Phone",
       name: "One Pluse 8 Pro",

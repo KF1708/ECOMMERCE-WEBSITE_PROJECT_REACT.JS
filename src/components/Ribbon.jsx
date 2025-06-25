@@ -1,5 +1,4 @@
-import React from "react";
-import { Badge, Card, Space } from "antd";
+import { Badge, Space } from "antd";
 const Ribbon = () => (
   <Space
     direction="vertical"

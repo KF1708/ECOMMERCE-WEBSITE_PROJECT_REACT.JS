@@ -1,6 +1,4 @@
-import React from "react";
-
-import { Button, Card } from "antd";
+import { Button } from "antd";
 import SuperProduct1 from "./SuperProduct1";
 
 const SuperTrendyProducts = () => {
