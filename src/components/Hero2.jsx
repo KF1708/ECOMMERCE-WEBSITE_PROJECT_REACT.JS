@@ -1,4 +1,4 @@
-import { LargerDiamondIcon } from "./icon";
+import { Gem } from "lucide-react";
 
 const Hero2 = () => {
   return (
@@ -16,7 +16,7 @@ const Hero2 = () => {
       <img src="/images/70% Off.png" alt="" />
       <div className="large-dimond">
         {" "}
-        <LargerDiamondIcon color="black"></LargerDiamondIcon>
+        <Gem color="black"></Gem>
       </div>
     </div>
   );

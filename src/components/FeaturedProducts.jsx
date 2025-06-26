@@ -6,7 +6,7 @@ import { Navigation } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
-import { Heart, Star } from "lucide";
+import { Heart, Star } from "lucide-react";
 
 const FeaturedProducts = () => {
   const products = [

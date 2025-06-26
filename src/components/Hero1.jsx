@@ -1,12 +1,13 @@
-import { MediumDimondIcon, SmallDimondIcon, VerticalLine } from "./icon";
 import { Button } from "antd";
+import { Gem } from "lucide-react";
+import { Diamond } from "lucide-react";
 
 const Hero1 = () => {
   return (
     <div className="firstpart-herohalf-section">
       <p style={{ color: "coral", fontWeight: "bold" }}>
         {" "}
-        <SmallDimondIcon /> New Arrival <SmallDimondIcon />
+        <Diamond /> New Arrival <Diamond />
       </p>
 
       <h1 className="primary-heading">
@@ -39,7 +40,7 @@ const Hero1 = () => {
             </small>
           </div>
           <div>
-            <VerticalLine></VerticalLine>
+            <hr />
           </div>
           <div className="d-flex gap-4">
             <div>
@@ -65,7 +66,7 @@ const Hero1 = () => {
           </div>
         </div>
         <div className="medium-dimond">
-          <MediumDimondIcon color="black"></MediumDimondIcon>
+          <Gem />
         </div>
       </div>
     </div>
