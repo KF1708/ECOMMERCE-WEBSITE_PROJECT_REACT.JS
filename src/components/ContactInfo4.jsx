@@ -1,4 +1,4 @@
-import { FacebookIcon, TwitterIcon, YoutubeIcon } from "./icon";
+import { FacebookIcon, TwitterIcon, YoutubeIcon } from "./icon.jsx";
 
 const ContactInfo4 = () => {
   return (
