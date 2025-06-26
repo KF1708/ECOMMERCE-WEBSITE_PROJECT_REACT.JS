@@ -1,5 +1,5 @@
 import Ribbon from "./Ribbon";
-import { CompareIcon, HeartIcon, ShareIcon, SmallHeartIcon } from "./icon.jsx";
+import { CompareIcon, HeartIcon, ShareIcon, SmallHeartIcon } from "./icon";
 
 const SuperProduct1 = () => {
   const itemts = [

@@ -1,4 +1,4 @@
-import { HeartIcon } from "./icon.jsx";
+import { HeartIcon } from "./icon";
 import { ArrowDownOutlined } from "@ant-design/icons";
 import { Button } from "antd";
 

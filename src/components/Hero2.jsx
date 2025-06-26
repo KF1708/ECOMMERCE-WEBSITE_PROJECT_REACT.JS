@@ -1,4 +1,4 @@
-import { LargerDiamondIcon } from "./icon.jsx";
+import { LargerDiamondIcon } from "./icon";
 
 const Hero2 = () => {
   return (

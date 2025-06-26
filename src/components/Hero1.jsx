@@ -1,4 +1,4 @@
-import { MediumDimondIcon, SmallDimondIcon, VerticalLine } from "./icon.jsx";
+import { MediumDimondIcon, SmallDimondIcon, VerticalLine } from "./icon";
 import { Button } from "antd";
 
 const Hero1 = () => {
