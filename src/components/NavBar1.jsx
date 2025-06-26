@@ -1,6 +1,5 @@
 import { Input } from "antd";
-
-import { ProfileIcon, SearchIcon, ShoppingCart } from "./icon";
+import { SearchIcon } from "./icon";
 
 const NavBar1 = () => {
   return (
