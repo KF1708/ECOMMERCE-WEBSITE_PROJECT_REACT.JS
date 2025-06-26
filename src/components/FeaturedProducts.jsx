@@ -6,7 +6,7 @@ import { Navigation } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
-import { HeartIcon, StarIcon } from "./icon";
+import { Heart, Star } from "lucide";
 
 const FeaturedProducts = () => {
   const products = [
@@ -86,7 +86,7 @@ const FeaturedProducts = () => {
                   <Ribbon />
                 </div>
                 <div className="heart position-absolute top-2 start-2">
-                  <HeartIcon color="black" />
+                  <Heart color="black" />
                 </div>
                 <div className="product-items">
                   <div className="product-image">
@@ -112,7 +112,7 @@ const FeaturedProducts = () => {
                       </p>
 
                       <p className="featured-products-items-span">
-                        <StarIcon /> (4.9)
+                        <Star /> (4.9)
                       </p>
                     </div>
                   </div>
