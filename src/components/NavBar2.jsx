@@ -1,4 +1,4 @@
-import { ArrowDown } from "lucide-react";
+import { DownArrowIcon } from "./icon";
 import { Button, Dropdown } from "antd";
 import { HiMiniBars3CenterLeft } from "react-icons/hi2";
 
@@ -9,7 +9,7 @@ const NavBar2 = () => {
         <div>
           {/* <NavBarIcon className=" p-4 m-4" /> */}
           <Button type="primary" className="category_btn p-3 m-1 gap-3">
-            <span>Categories</span> <ArrowDown color="white" />
+            <span>Categories</span> <DownArrowIcon color="white" />
           </Button>
         </div>
 

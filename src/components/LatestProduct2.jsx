@@ -1,4 +1,4 @@
-import { Heart } from "lucide-react";
+import { HeartIcon } from "./icon";
 import { ArrowDownOutlined } from "@ant-design/icons";
 import { Button } from "antd";
 
@@ -7,7 +7,7 @@ const LatestProduct2 = () => {
     <div className="latest-product-lastpart gap-4">
       <div className=" position-relative ">
         <div className=" d-flex justify-content-around position-absolute p-3">
-          <Heart className="heart-icon-latest-product "></Heart>
+          <HeartIcon className="heart-icon-latest-product "></HeartIcon>
           <div className="  latest-product-lastpart-details">
             <h4 className=" fw-bold">
               Urban <br /> Shirts
@@ -38,7 +38,7 @@ const LatestProduct2 = () => {
       </div>
       <div className=" position-relative">
         <div className=" d-grid justify-content-around position-absolute p-3">
-          <Heart className="heart-icon-latest-product "></Heart>
+          <HeartIcon className="heart-icon-latest-product "></HeartIcon>
           <img
             className=" modile "
             src="/images/MobilePhone.png"

@@ -1,7 +1,6 @@
 import { Input } from "antd";
-import { Search } from "lucide-react";
-import { User } from "lucide-react";
-import { ShoppingCart } from "lucide-react";
+import { ProfileIcon, SearchIcon, ShoppingCart } from "./icon";
+
 const NavBar1 = () => {
   return (
     <div className="navbar-upper-section gap-5 py-3">
@@ -13,14 +12,14 @@ const NavBar1 = () => {
           <Input
             placeholder="Search"
             className="navbar-scarchbar"
-            prefix={<Search color="gray" />}
+            prefix={<SearchIcon color="gray" />}
             style={{ backgroundColor: "rgb(97, 93, 93)", color: "gray" }}
           />
         </div>
 
         <div className="navbar-upper-section gap-5">
           <ShoppingCart color="white" />
-          <User color="white" />
+          <ProfileIcon color="white" />
         </div>
       </div>
     </div>

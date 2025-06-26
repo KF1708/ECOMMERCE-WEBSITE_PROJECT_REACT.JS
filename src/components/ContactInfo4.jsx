@@ -1,6 +1,4 @@
-import { Facebook } from "lucide-react";
-import { Twitter } from "lucide-react";
-import { Youtube } from "lucide-react";
+import { FacebookIcon, TwitterIcon, YoutubeIcon } from "./icon";
 
 const ContactInfo4 = () => {
   return (
@@ -17,9 +15,9 @@ const ContactInfo4 = () => {
         </div>
       </div>
       <div className=" d-flex justify-content-start gap-2 ">
-        <Facebook />
-        <Twitter />
-        <Youtube />
+        <FacebookIcon />
+        <TwitterIcon />
+        <YoutubeIcon />
       </div>
     </div>
   );
