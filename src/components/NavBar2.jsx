@@ -1,4 +1,4 @@
-import { DownArrowIcon } from "./icon";
+import { DownArrowIcon } from "./Icon";
 import { Button, Dropdown } from "antd";
 import { HiMiniBars3CenterLeft } from "react-icons/hi2";
 
